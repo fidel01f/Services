@@ -1,16 +1,11 @@
-package model;
+package com.Servicios.model;
+
 
 public class Pet {
     private Long id;
     private String name;
     private String status;
 
-    public Pet() {
-        this.id = id;
-        this.name = name;
-        this.status = status;
-
-    }
 
     public Long getId() {
         return id;
@@ -35,7 +30,4 @@ public class Pet {
     public void setStatus(String status) {
         this.status = status;
     }
-
-
-
 }
